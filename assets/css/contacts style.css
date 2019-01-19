@@ -100,14 +100,12 @@ footer {
 
 /*style differs page to page from here forth*/
 
-img {
-     float:left;
-     margin-left:6px;
-     border:1px solid grey;   
-}
 
-#intro {
-     margin-left:6px;
-     font-family: sans-serif;
+
+.contact-container {
+
+    font-family: sans-serif;
+    text-align: left;
+    color: grey;  
 }
 

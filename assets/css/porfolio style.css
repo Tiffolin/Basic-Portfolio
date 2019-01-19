@@ -1,11 +1,10 @@
-/* Index page layout */
+/*Portfolio layout*/
 /* style idendical throughout rest of the site*/
 
 * {
   box-sizing: border-box;
   text-align: center;
 }
-
 
 header {
     position: fixed;
@@ -14,7 +13,7 @@ header {
     height: 110px;
     width:100%;
     background-color:#ffffff;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid gray;
 }
 
 #topheader {
@@ -68,10 +67,10 @@ div.maincontent {
     margin-top: 15%;
     margin-left: 15%;
     margin-bottom: 80px;
-    height:500px;
+    height:960px;
     width: 960px;
     background:white;
-    border:1px solid gray
+    border:1px solid grey
 }
 
 h1 {
@@ -83,7 +82,7 @@ h1 {
     text-align: left;
     color: #4aaaa5;
 }
-    
+
 footer {
     clear: both;
     overflow: auto;
@@ -100,14 +99,22 @@ footer {
 
 /*style differs page to page from here forth*/
 
-img {
-     float:left;
-     margin-left:6px;
-     border:1px solid grey;   
+/*Container holding the image and the text*/
+
+.container{
+    position:relative;
+    float:left;
+    margin-left:10px;
+    margin-top: 10px;
+    border:1px solid gray;
+    width:220px;
+    height:220px;
 }
 
-#intro {
-     margin-left:6px;
-     font-family: sans-serif;
+/*Bottom text*/
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    width: 220px;
+    background-color:  #4aaaa5;   
 }
-
