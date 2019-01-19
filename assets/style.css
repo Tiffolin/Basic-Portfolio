@@ -103,11 +103,14 @@ footer {
 img {
      float:left;
      margin-left:6px;
+     margin-right:20px;
      border:1px solid grey;   
 }
 
 #intro {
-     margin-left:6px;
+     margin-left:10px;
      font-family: sans-serif;
+     padding:20px;
+     text-align: left;
 }
 
