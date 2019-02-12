@@ -1,116 +1,162 @@
-/* Index page layout */
-/* style idendical throughout rest of the site*/
-
-* {
-  box-sizing: border-box;
-  text-align: center;
-}
-
-
-header {
-    position: fixed;
-    z-index:10;
-    top:0;
-    height: 110px;
-    width:100%;
-    background-color:#ffffff;
-    border-bottom: 1px solid grey;
-}
-
-#topheader {
-  position:fixed;
-  left: 15%;
-  top: 6%;
-  padding: 20px;
-  font-family: 'Serif';
-  background-color:#4aaaa5;
-  font-size: 30px;
-  color: white;
-}
-
-.tags {
-    position: fixed;
-    top: 6%;
-    padding: 20px;
-    font-family:"Serif";
-    color: #777777;
-}
-
-#About {
-    position:fixed;
-    right: 25%;
-    width: 10%;
-    padding: 20px;
-    font-size:15px;  
-}
-
-#Portfolio {
-    position:fixed;
-    right: 15%;
-    width: 10%;
-    padding: 20px;
-    font-size:15px;
-}
-
-#Contact {
-    position:fixed;
-    right: 5%;
-    width: 10%;
-    padding: 20px;
-    font-size:15px;
-}
 
 body {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/morocco.png)
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/vintage-concrete.png");
 }
 
-div.maincontent {
-    margin-top: 15%;
+.fixed-header{
+    background-color:whitesmoke;
+    margin-top:0px;
+    margin-left:0px;
+    padding: 5px;
+    padding-bottom:0px;
+    top:0px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#Name{
+    float:left;
+    padding:20px;
+    background-color:#4aaaa5;
+    color:whitesmoke;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top:20px;
+    margin-left: 15%;
+    border-right:3px solid #666666;
+    border-left:3px solid #666666;
+}
+
+nav{
+    float:right;
+    position:relative;
+    right:5%;
+    bottom:0%;
+    font-family:sans-serif;
+    color:#4aaaa5;
+    margin-bottom:0px;
+    margin-top: 50px;
+    padding-bottom:0px;
+}
+
+#Main{
+    clear:both;
+    margin-top: 10%;
     margin-left: 15%;
     margin-bottom: 80px;
-    height:500px;
+    padding-right:40px;
+    padding-left:0px;
+    height:600px;
     width: 960px;
-    background:white;
-    border:1px solid gray
+    background-color:whitesmoke;
+    border-left:2px solid #4aaaa5;
+    border-right:2px solid #4aaaa5;
+    overflow:hidden;
+    position:relative;
 }
 
-h1 {
-    float:left;
-    margin-left: 8px;
-    width: 96%;
-    border-bottom: 1px solid grey;
+#Title{
     font-family: serif;
-    text-align: left;
-    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top:20px;
+    margin-top:10px;
+    margin-left: 6%;
+    margin-right: 0%;
+    color:#4aaaa5;
+    border-bottom:2px solid  #666666;
 }
-    
+
 footer {
-    clear: both;
-    overflow: auto;
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 40px;
     width:100%;
     margin-top:20px;
     background-color: #666666;
     border-top: 8px solid  #4aaaa5;
-    text-align: center bottom;
+    text-align: center;
     color:white;
 }
 
-/*style differs page to page from here forth*/
+/*index page style*/
 
-img {
-     float:left;
-     margin-left:6px;
-     margin-right:20px;
-     border:1px solid grey;   
+#self{
+    float:left;
+    width:200px;
+    height: 330px;
+    margin-left: 8%;
+    margin-top: 3%;
+    padding:5px;
+    border-bottom:2px solid  #4aaaa5;
+    margin-right:20px;
 }
 
-#intro {
-     margin-left:10px;
-     font-family: sans-serif;
-     padding:20px;
-     text-align: left;
+.introduction{
+    font-family:sans-serif;
+    color: #666666;
+    font-size: 16px;
+    border-left:20px;
+}
+
+/*portfolio page style*/
+
+.box{
+    float:left;
+    padding-left:40px;
+    margin:20px;
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    position: relative;
+}
+
+.images{
+    max-width:100%;
+}
+
+.banner{
+    background-color:#4aaaa5;
+    position: absolute;
+    text-align: center;
+    width:200px;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*contact page style*/
+.form{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+label{
+    text-align:center;
+    font-family:sans-serif;
+}
+
+.button{
+    font-family:sans-serif;
+    border-radius: 12px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 

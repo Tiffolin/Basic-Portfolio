@@ -109,3 +109,11 @@ footer {
     color: grey;  
 }
 
+#contactinput{
+    position: relative;
+    margin-left: 40px;
+
+    text-align: left;
+
+}
+

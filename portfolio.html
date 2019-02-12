@@ -3,62 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/porfolio style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
-<header>
-    <div id="topheader">Tiffany Lin</div>
+<header class="fixed-header">
+        <span id ="Name">Tiffany Lin</span>
+        <nav>
+        <span><a href="index.html">About  |</a></span>
+        <span><a href="portfolio.html">Portfolio  |</a></span>
+        <span><a href="contact.html">Contact</a></span>
+        </nav>
+    </header>
+    
+    <body>
+        <div id="Main">
+            <div id="Title">Portfolio</div>
 
-    <div class="tags">
-            <a href="index.html">     <p id="About">About|</p></a>
-                                      <p id="Portfolio">Portfolio|</p>
-            <a href="contact.html">   <p id="Contact">Contact|</p></a>
+            <div class="box">
+                <a href="https://tiffolin.github.io/Psychic-Game/"><img src="assets/images/hangman.jpg"  class="images" id="hangman"></a>
+                <div class="banner">Hangman/Psychic</div>
+            </div>
 
-    </div>
-</header>
+            <div class="box">
+                <a href="https://tiffolin.github.io/unit-4-game-/"><img src="assets/images/psychic.jpg" class="images" id="crystal"></a>
+                <div class="banner">Crystal Game</div>
+            </div>
 
-<body>
-    <div class="maincontent">
-        <h1 class="maincontent"> Portfolio</h1>
-        
-        <div class="container">
-            <img src="assets/images/dino.jpg" alt ="dino" align="top" style="width:220px;height:220px;" >
-                <div class="text-block">
-                    <p>I can Drive!</p>
-                </div>
+            <div class="box">
+                <a href=""><img src="assets/images/wild.jpg"  class="images" id="wild"></a>
+                <div class="banner">Wild</div>
+            </div>
+
+            <div class="box">
+                <a href=""><img src="assets/images/dino.jpg"  class="images" id="dino"></a>
+                <div class="banner">Dino</div>
+            </div>
+
+            <div class="box">
+                <a href=""><img src="assets/images/wonder.jpg"  class="images" id="wonder"></a>
+                <div class="banner">Wonder</div>
+            </div>
+
         </div>
-
-        <div class="container">
-                <img src="assets/images/manju.png" alt ="manju" align="top" style="width:220px;height:220px;" >
-                    <div class="text-block">
-                        <p>Have a manju</p>
-                    </div>
-        </div>
-
-        <div class="container">
-            <img src="assets/images/life.jpg" alt ="just cruising through life" align="top" style="width:220px;height:220px;" >
-                <div class="text-block">
-                    <p>Just cruising through life</p>
-                </div>
-        </div>
-
-
-        <div class="container">
-            <img src="assets/images/Mariocart.jpg" alt ="mariocarting" align="top" style="width:220px;height:220px;" >
-                <div class="text-block">
-                    <p>I can drive better now!</p>
-                </div>
-        </div>
-
-        <div class="container">
-                <img src="assets/images/ninja.jpg" alt ="ninja" align="top" style="width:220px;height:220px;" >
-                    <div class="text-block">
-                        <p>忍者です</p>
-                    </div>
-        </div>
-        
-    </div>
-</body>
-
-<footer>copyright</footer>
+    
+    </body>
+    
+    <footer>copyright</footer>
+    </html>
 </html>
