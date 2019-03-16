@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Basic-Portfolio assignment
+Contains a summary of myself, and links to all the projects I have created since Jan 2019
